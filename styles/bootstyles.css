@@ -1,2 +1,86 @@
 /* Brandon Vinh Le */
-/* Last Edit: 12/5/21 */
+/* Last Edit: 12/11/21 */
+body {
+    background-color: silver;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    display: flex;
+    background-color: #304a61;
+    color: white;
+    flex-direction: row;
+}
+
+.menu li {
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 3;
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.menu li a:hover {
+    color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 3.2%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    gap: 50px;
+}
+
+.grid_item {  
+    text-align: center;
+    border-radius: 25px;
+}
+
+.caption {
+    width: auto;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #494d50;
+    color: white;
+    flex-direction: row;
+}
+
+.footer li {
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 3;
+    list-style: none;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    color: grey;
+}
+
+#copyright {
+    text-align: center;
+}
